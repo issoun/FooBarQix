@@ -36,8 +36,7 @@ public class FootBarQixTest {
 			FootBarQix fbq = new FootBarQix(0, 0);
 			Field field1 = FootBarQix.class.getDeclaredField(setTo);
 			field1.setAccessible(true);
-			return (String) field1.get(fbq);
-			// System.out.println("FOO :" + FOO);
+			return (String) field1.get(fbq);			
 		} catch (NoSuchFieldException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
